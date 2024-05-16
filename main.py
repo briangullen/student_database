@@ -29,7 +29,7 @@ while True:
         if category_answer == "hometown":
             print(f"{chosen_student}'s hometown is {hometown[student_number - 1]}.")
             break
-        if category_answer == "favorite food":
+        if category_answer in "favorite food":
             print(f"{chosen_student}'s favorite food is {favorite_food[student_number - 1]}.")
             break
         else:
